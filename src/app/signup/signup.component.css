@@ -1,0 +1,118 @@
+.signup-container {
+    background-image: url(../../assets/images/food-a.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.required{
+    color: #9c1414;
+}
+
+  .signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* height: 100vh; */
+  padding: 60px;
+ 
+  }
+
+  .signup-form {
+    max-width: 400px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #e6dcdc;
+    border-radius: 5px;
+    background: transparent;
+  }
+  .valid{
+    color: #9c1414;
+  }
+ input{
+  background-color: transparent;
+  /* border-color: #1b1515; */
+ }
+  .signup-form {
+    padding-left: 40px;
+    padding-right: 25px;
+  
+      background: linear-gradient(55deg, #f8f6f6, #d1c9c9, #f7d3d3);
+      background-size: 200% 200%;
+      animation: gradientAnimation 5s ease-in-out infinite;
+    
+  }
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  
+  .signup-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #e05366;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e05366;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #9c1414;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    font-weight: bold;
+    color: #020101;
+    text-decoration: none;
+  }
+  input{
+    color: rgb(7, 3, 3);
+    /* background-color: rgb(175, 175, 167); */
+  }
+  .login-link a:hover {
+    color: #554646;
+  }
+  /* ...  */
+  
